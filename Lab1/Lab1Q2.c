@@ -1,3 +1,5 @@
+//Samaras First Github Push
+
 #include <stdio.h>
 
 int main(void)
