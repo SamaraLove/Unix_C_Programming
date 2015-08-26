@@ -1,0 +1,18 @@
+Memerrors error analysis
+
+gcc memerrors.c -g -o memerrors 
+
+memerrors 1
+<=0
+
+memerrors 2
+-1075260773
+
+nothing happened with memerrors 3 
+
+memerrors 5
+nothing happens 
+
+memerrors 6
+Choose a number from 1 to 5
+but it automatically comes back to the terminal without a space for input 

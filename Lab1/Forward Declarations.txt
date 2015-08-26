@@ -1,0 +1,21 @@
+2. Forward declarations
+(Consult the lecture notes on forward declarations.)
+A forward declaration allows us to tell the compiler that a function exists before it is defined
+C works in a sequential order, and so it wouldn't be able to compile it otherwise
+Keeps the code neat
+
+Say you have a .c file containing five functions. What forward declarations must there be if:
+(a) None of the functions call each other.
+	No forward declarations
+	
+(b) Each function calls the next one, in order (i.e. the 1st calls the 2nd, the 2nd calls the 3rd, etc.)
+	5,4,3,2,1st
+	
+(c) Each function calls the previous one (i.e. the 5th calls the 4th, the 4th calls the 3rd, etc.)
+	No need for forward declarations
+	
+(d) The 1st and 5th functions both call the 2nd, 3rd and 4th.
+	2,3,4th before the first function
+	
+(e) The 2nd, 3rd and 4th functions all call the 1st and 5th.
+	1st, 5th functions have to be declared above the others

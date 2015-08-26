@@ -1,0 +1,15 @@
+ansi
+many version of C
+puts it in a standard form like C89 or something
+Won't allow you do to certain things in a way
+like // to comment things 
+so that you can compile it in C 89
+different standard of C standard\ansi C is the base version of C and so everytin will work
+
+
+pedantic 
+makes sure you stay in the form of ansi
+
+wall
+means you will warnings allow
+
